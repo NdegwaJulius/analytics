@@ -60,7 +60,8 @@ const LoginPage = () => {
                   </div>
                 </div>
                 <Button
-                  className="cursor-pointer font-normal min-w-[456px] text-[16px] text-center text-white_A700 w-[auto]"
+                  className="common-pointer cursor-pointer font-normal min-w-[456px] text-[16px] text-center text-white_A700 w-[auto]"
+                  onClick={() => navigate("/homepage")}
                   shape="RoundedBorder6"
                   size="sm"
                   variant="FillTeal400"
